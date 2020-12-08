@@ -33,6 +33,11 @@ h2 {
     color: var(--dark-blue);
 }
 
+.breadtxt {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* Header Styling */
 
 header {
@@ -206,7 +211,28 @@ header {
     padding-left: 10px;
 }
 
+/* ABOUT SPECIFIC */
 
+/* About Section */
+
+.about {
+    margin-top: 123px;
+    margin-left: 50px;
+}
+
+.about h2 {
+    padding-top: 50px;
+}
+
+.about img {
+    padding-bottom: 10px;
+}
+
+.about p {
+    width: 278px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
 
 /* Footer Area */
 

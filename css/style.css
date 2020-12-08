@@ -12,6 +12,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header Styling */
@@ -100,6 +101,7 @@ header {
       border-color: var(--pink);
       font-weight: 600;
       font-size: 36px;
+      color: var(--dark-blue);
   }
   
   .sidenav a:hover{
@@ -112,7 +114,7 @@ header {
     font-size: 24px;
     padding-top: 60px;
     padding-right: 30px;
-    color: var(--primary-grey);
+    color: var(--black);
   }
 
 

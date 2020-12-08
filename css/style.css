@@ -37,7 +37,7 @@ h2 {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     position: absolute;
     top: 0;
@@ -139,6 +139,7 @@ header {
     color: var(--black);
   }
 
+/* HOMEPAGE SPECIFIC */
 
 /* Idea Section */
 
@@ -206,6 +207,52 @@ header {
     padding-left: 10px;
 }
 
+/* PORTFOLIO SPECIFIC */
+
+.portfolios {
+    margin-top: 123px;
+    justify-content: center;
+}
+
+.prt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.lnk img {
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.lnk h2 {
+    text-align: center;
+}
+
+.lnk_1 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 32.5%;
+}
+
+.lnk_2 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 66%;
+}
+
+.txtg {
+    color: var(--green);
+}
+
+.txtb {
+    color: var(--dark-blue);
+}
 
 
 /* Footer Area */

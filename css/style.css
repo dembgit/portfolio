@@ -38,7 +38,7 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
     top: 0;
     height: 120px;
@@ -49,12 +49,13 @@ header {
 
 .page {
     position: absolute;
-    left: 40%;
+    left: 41.5%;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
     padding-top: 61px;
     color: var(--black);
+    width: 77px;
 }
 
 .demb {
@@ -188,13 +189,23 @@ header {
     height: 20px;
 }
 
-.exp {
+.experience {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
     padding-left: 48px;
     padding-bottom: 10px;
 }
+
+.exp p {
+    padding-left: 10px;
+}
+
 
 
 /* Footer Area */

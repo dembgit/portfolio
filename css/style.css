@@ -6,11 +6,31 @@
     --dark-blue: #4e4f5e;
     --black: #161722;
     --grey: #707070;
+    --white: #FFFFFF;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../images/backgroundtest.png);
+    background-size: 180vh;
+}
+
+/* Global Text Styling */
+
+h2 {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.subtxt {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--dark-blue);
 }
 
 /* Header Styling */
@@ -18,7 +38,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
     top: 0;
     height: 120px;
@@ -29,11 +49,13 @@ header {
 
 .page {
     position: absolute;
-    left: 40%;
+    left: 41.5%;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
     padding-top: 61px;
+    color: var(--black);
+    width: 77px;
 }
 
 .demb {
@@ -58,7 +80,7 @@ header {
     padding-top: 60px;
     padding-right: 30px;
     font-size: 24px;
-    color: var(--primary-grey);
+    color: var(--black);
 }
 
 
@@ -76,17 +98,20 @@ header {
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: var(--primary-grey);
+    color: var(--black);
     display: block;
     transition: 0.3s;
   
   }
 
+  .sidenav a .logo {
+      padding: 0;
+  }
+
   .sidenav .menu {
-    margin-top: 122px;
+    margin-top: 132px;
   }
 
   .sidenav .menu .item {
@@ -94,10 +119,11 @@ header {
       justify-content: space-evenly;
       text-align: center;
       padding: 33px 0 33px 0;
-      border-bottom-style: solid;
+      border-top-style: solid;
       border-color: var(--pink);
       font-weight: 600;
       font-size: 36px;
+      color: var(--dark-blue);
   }
   
   .sidenav a:hover{
@@ -110,5 +136,101 @@ header {
     font-size: 24px;
     padding-top: 60px;
     padding-right: 30px;
-    color: var(--primary-grey);
+    color: var(--black);
   }
+
+
+/* Idea Section */
+
+.idea {
+    margin-top: 123px;
+}
+
+.idea h2 {
+    padding: 50px 0px 10px 50px;
+}
+
+.idea p {
+    padding-left: 48px;
+    padding-bottom: 10px;
+}
+
+.idea button {
+    margin-left: 50px;
+    background-color: var(--green);
+    border: none;
+    color: var(--black);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.idea button:hover {
+    background-color: #b6dad3;
+}
+
+/* Experience & skills Section */
+
+.skills {
+    margin-top: 100px;
+}
+
+.skills h2 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.skills img {
+    width: 10px;
+    height: 20px;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    padding-left: 48px;
+    padding-bottom: 10px;
+}
+
+.exp p {
+    padding-left: 10px;
+}
+
+
+
+/* Footer Area */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.socials {
+    height: 35px;
+}
+
+.socials a{
+    height: 35px;
+    width: 35px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-decoration: none;
+}

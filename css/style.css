@@ -20,6 +20,19 @@ body {
     background-size: 180vh;
 }
 
+/* Global Text Styling */
+
+h2 {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.subtxt {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--dark-blue);
+}
+
 /* Header Styling */
 
 header {
@@ -124,6 +137,64 @@ header {
     padding-right: 30px;
     color: var(--black);
   }
+
+
+/* Idea Section */
+
+.idea {
+    margin-top: 123px;
+}
+
+.idea h2 {
+    padding: 50px 0px 10px 50px;
+}
+
+.idea p {
+    padding-left: 48px;
+    padding-bottom: 10px;
+}
+
+.idea button {
+    margin-left: 50px;
+    background-color: var(--green);
+    border: none;
+    color: var(--black);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.idea button:hover {
+    background-color: #b6dad3;
+}
+
+/* Experience & skills Section */
+
+.skills {
+    margin-top: 100px;
+}
+
+.skills h2 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.skills img {
+    width: 10px;
+    height: 20px;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-bottom: 10px;
+}
 
 
 /* Footer Area */

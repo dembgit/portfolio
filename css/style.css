@@ -15,6 +15,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-image: url(../images/backgroundtest.png);
+    background-size: 180vh;
+}
+
 /* Header Styling */
 
 header {

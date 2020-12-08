@@ -37,7 +37,7 @@ h2 {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     position: absolute;
     top: 0;

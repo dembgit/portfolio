@@ -127,6 +127,9 @@ footer {
     align-items: center;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     
 }
 

@@ -79,7 +79,6 @@ header {
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: var(--black);
@@ -88,8 +87,12 @@ header {
   
   }
 
+  .sidenav a .logo {
+      padding: 0;
+  }
+
   .sidenav .menu {
-    margin-top: 122px;
+    margin-top: 132px;
   }
 
   .sidenav .menu .item {

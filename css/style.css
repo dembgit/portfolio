@@ -378,3 +378,99 @@ footer {
     padding-right: 13px;
     text-decoration: none;
 }
+
+/* Media Query for Laptop and Up */
+
+@media screen and (min-width: 1367px) {
+
+    /* Global Changes */
+
+    h2 {
+        font-size: 72px;
+    }
+    
+    .subtxt {
+        font-size: 28px;
+    }
+    
+    .breadtxt {
+        font-size: 22px;
+    }
+
+    /* Header & Footer Changes */ 
+
+    .page, .sidenav, .bar, footer, .skills {
+        display: none;
+    }
+
+    .demb {
+        width: 75px;
+        height: 75px;
+        padding-top: 25px;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    nav {
+        margin-right: 1.4rem;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin-top: 40px;
+        margin-right: 30px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin-left: 2rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--black);
+    }
+
+    nav a:hover {
+            color: var(--green);
+        }
+
+    nav img {
+        padding-top: 5px;
+        height: 35px;
+    }
+
+    /* Homepage Specfic */
+
+    .idea h2 {
+        padding-top: 234px;
+        padding-left: 215px;
+    }
+
+    .idea .subtxt {
+        width: 440px;
+        padding-left: 215px;
+        padding-bottom: 25px;
+    }
+
+    .idea a{
+        padding-left: 165px;
+    }
+
+    /* Portfolio Specfic */
+
+    /* Portfolio Subpage Specific */
+
+    /* About Specific */
+
+    /* Contact Specfic */
+}

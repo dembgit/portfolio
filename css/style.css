@@ -282,6 +282,15 @@ header {
     padding-bottom: 25px;
 }
 
+.about .skills_desktop {
+    display: none;
+}
+
+/* For desktop */
+.desktop {
+    display: none;
+}
+
 /* CONTACT SPECIFIC */
 
 /* Info Section */
@@ -492,6 +501,65 @@ footer {
     /* Portfolio Subpage Specific */
 
     /* About Specific */
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about h2 {
+        font-size: 48px;
+        padding-top: 100px;
+        padding-left: 200px;
+    }
+
+    .about .subtxt {
+        padding-top: 5px;
+        padding-left: 200px;
+        padding-bottom: 0;
+        width: 400px;
+        font-size: 24px;
+    }
+
+    .about .breadtxt {
+        padding-top: 5px;
+        padding-left: 200px;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .about .mobile {
+        display: none;
+    }
+
+    .about .desktop {
+        display: flex;
+        width: 600px;
+        height: 625px;
+        padding-top: 100px;
+        padding-right: 270px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+    }
+
+    .about .skills_desktop {
+        display: contents;
+    }
+
+    .about .skills_desktop .experience {
+        padding-top: 10px;
+        padding-left: 150px;
+    }
+
+    .about .skills_desktop .subtxt {
+        padding-top: 0;
+        padding-left: 10px;
+    }
+
+    .about .skills_desktop img {
+        padding-bottom: 0;
+    }
 
     /* Contact Specfic */
 }

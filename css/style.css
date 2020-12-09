@@ -468,6 +468,27 @@ footer {
 
     /* Portfolio Specfic */
 
+    .prt {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .prt img {
+        width: 535px;
+        height: 485px;
+        padding-top: 100px;
+    }
+
+    .prt .lnk_1 {
+        right: 40%;
+        top: 45%;
+    }
+
+    .prt .lnk_2 {
+        left: 47.5%;
+        top: 45%;
+    }
+
     /* Portfolio Subpage Specific */
 
     /* About Specific */

@@ -265,7 +265,10 @@ header {
 
 .about {
     margin-top: 123px;
-    margin-left: 50px;
+}
+
+.about div {
+    padding-left: 50px;
 }
 
 .about h2 {

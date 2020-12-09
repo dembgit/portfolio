@@ -15,6 +15,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(../images/backgroundtest.png);
     background-size: 180vh;
@@ -54,13 +58,16 @@ header {
 
 .page {
     position: absolute;
-    left: 41.5%;
+    text-align: center;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
     font-size: 24px;
     font-weight: bold;
     margin: 0;
     padding-top: 61px;
     color: var(--black);
-    width: 77px;
+    width: 150px;
 }
 
 .demb {
@@ -257,6 +264,123 @@ header {
 
 .txtb {
     color: var(--dark-blue);
+}
+
+/* Portfolio Subpages */
+
+.main {
+    width: 100%;
+    height: 812px;
+}
+
+.main a {
+    width: 30px;
+    height: 18px;
+    z-index: 1;
+}
+
+/* Defining sized of the projects */
+
+#project1 {
+    width: 100%;
+    height: 812px;
+}
+
+#project2 {
+    width: 100%;
+    height: 812px;
+}
+
+#project3 {
+    width: 100%;
+    height: 812px;
+}
+
+#project4 {
+    width: 100%;
+    height: 812px;
+}
+
+#project5 {
+    width: 100%;
+    height: 812px;
+}
+
+#project6 {
+    width: 100%;
+    height: 812px;
+}
+
+/* Arrow placements */
+
+.prj1 .arrow_down {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj2 .arrow_up {
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj2 .arrow_down {
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj3 .arrow_up {
+    position: absolute;
+    top: 215%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj3 .arrow_down {
+    position: absolute;
+    top: 285%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj4 .arrow_up {
+    position: absolute;
+    top: 315%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj4 .arrow_down {
+    position: absolute;
+    top: 385%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj5 .arrow_up {
+    position: absolute;
+    top: 415%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj5 .arrow_down {
+    position: absolute;
+    top: 485%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prj6 .arrow_up {
+    position: absolute;
+    top: 515%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* ABOUT SPECIFIC */

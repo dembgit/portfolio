@@ -565,4 +565,52 @@ footer {
     }
 
     /* Contact Specfic */
+
+    .cntc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+    }
+
+    .info h2 {
+        padding-top: 125px;
+        font-size: 60px;
+    }
+
+    .info .subtxt {
+        font-size: 30px;
+        width: 485px;
+    }
+
+    .contact {
+        margin-top: 123px;
+        padding-top: 0;
+        padding-right: 335px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact h2 {
+        padding-top: 125px;
+        font-size: 60px;
+    }
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact input {
+        width: 535px;
+    }
+
+    .contact .msg {
+        height: 265px;
+    }
 }

@@ -271,6 +271,7 @@ header {
 .main {
     width: 100%;
     height: 812px;
+    margin-top: 123px;
 }
 
 .main a {
@@ -279,36 +280,58 @@ header {
     z-index: 1;
 }
 
-/* Defining sized of the projects */
+/* Defining sizes of the projects */
 
 #project1 {
     width: 100%;
-    height: 812px;
+    height: 689px;
 }
 
-#project2 {
+#project2, #project3, #project4, #project5, #project6 {
     width: 100%;
     height: 812px;
 }
 
-#project3 {
+#edu1 {
     width: 100%;
-    height: 812px;
+    height: 689px;
+    background-image: url(../images/mobile_project1.png);
+    background-position: center;
 }
 
-#project4 {
+#edu2 {
     width: 100%;
     height: 812px;
+    background-image: url(../images/mobile_project2.png);
+    background-position: center;
 }
 
-#project5 {
+#edu3 {
     width: 100%;
     height: 812px;
+    background-image: url(../images/mobile_project3.png);
+    background-position: center;
 }
 
-#project6 {
+#edu4 {
     width: 100%;
     height: 812px;
+    background-image: url(../images/mobile_project4.png);
+    background-position: center;
+}
+
+#edu5 {
+    width: 100%;
+    height: 812px;
+    background-image: url(../images/mobile_project5.png);
+    background-position: center;
+}
+
+#edu6 {
+    width: 100%;
+    height: 812px;
+    background-image: url(../images/mobile_project6.png);
+    background-position: center;
 }
 
 /* Arrow placements */
@@ -641,8 +664,32 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    #project1, #project2, #project3, #project4, #project5, #project6 {
+    #edu1, #edu2, #edu3, #edu4, #edu5, #edu6 {
         height: 600px;
+    }
+
+    #edu1 {
+        background-image: url(../images/desktop_project1.png);
+    }
+
+    #edu2 {
+        background-image: url(../images/desktop_project2.png);
+    }
+
+    #edu3 {
+        background-image: url(../images/desktop_project3.png);
+    }
+
+    #edu4 {
+        background-image: url(../images/desktop_project4.png);
+    }
+
+    #edu5 {
+        background-image: url(../images/desktop_project5.png);
+    }
+
+    #edu6 {
+        background-image: url(../images/desktop_project6.png);
     }
 
     /* About Specific */

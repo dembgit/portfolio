@@ -627,6 +627,24 @@ footer {
 
     /* Portfolio Subpage Specific */
 
+    .arrow_up {
+        display: none;
+    }
+
+    .arrow_down {
+        display: none;
+    }
+
+    .main {
+        display: grid;
+        margin-top: 123px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #project1, #project2, #project3, #project4, #project5, #project6 {
+        height: 600px;
+    }
+
     /* About Specific */
 
     .about {

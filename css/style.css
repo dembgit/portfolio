@@ -19,11 +19,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-image: url(../images/backgroundtest.png);
-    background-size: 180vh;
-}
-
 /* Global Text Styling */
 
 h2 {
@@ -278,6 +273,47 @@ header {
     width: 30px;
     height: 18px;
     z-index: 1;
+}
+
+.main button {
+    background-color: var(--green);
+    border: none;
+    color: var(--black);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn1 {
+    top: 80%;
+}
+
+#btn2 {
+    top: 180%;
+}
+
+#btn3 {
+    top: 280%;
+}
+
+#btn4 {
+    top: 380%;
+}
+
+#btn5 {
+    top: 480%;
+}
+
+#btn6 {
+    top: 585%;
 }
 
 /* Defining sizes of the projects */
@@ -690,6 +726,36 @@ footer {
 
     #edu6 {
         background-image: url(../images/desktop_project6.png);
+    }
+
+    #btn1 {
+        top: 70%;
+        left: 25%;
+    }
+    
+    #btn2 {
+        top: 70%;
+        left: 75%;
+    }
+    
+    #btn3 {
+        top: 135%;
+        left: 25%;
+    }
+    
+    #btn4 {
+        top: 135%;
+        left: 75%;
+    }
+    
+    #btn5 {
+        top: 200%;
+        left: 25%;
+    }
+    
+    #btn6 {
+        top: 200%;
+        left: 75%;
     }
 
     /* About Specific */
